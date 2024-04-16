@@ -5,10 +5,8 @@ public class nomor1 {
         // Membuat objek untuk menghasilkan bilangan acak
         Random rand = new Random();
         
-        // Mendapatkan bilangan bulat acak antara 1 dan 12
         int nomorBulan = rand.nextInt(12) + 1;
         
-        // Menampilkan nama bulan sesuai dengan nomor bulan yang dihasilkan
         String namaBulan = "";
         switch (nomorBulan) {
             case 1:
