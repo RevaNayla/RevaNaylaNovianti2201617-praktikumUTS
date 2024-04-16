@@ -17,10 +17,9 @@ public class nomor3 {
     public static int sumDigits(long n) {
         int sum = 0;
         
-        // Menggunakan loop untuk mengekstrak dan menghapus digit berulang kali
         while (n != 0) {
-            sum += n % 10; // Menambahkan digit terakhir ke sum
-            n /= 10; // Menghapus digit terakhir
+            sum += n % 10;
+            n /= 10;
         }
         
         return sum;
